@@ -2,12 +2,15 @@
 
 # Descrição do projeto
 ## Projeto desenvolvido no [Curso de HTML e CSS: responsividade com mobile-first](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first)
-### O alura-books é um projeto de venda de livros com o intuito de estudar e praticar:
-- Design responsivo;
-- Mobile first. 
+### O Alurabooks é uma plataforma de venda de livros online. O intuito do projeto é estudar conceitos de mobile-first e design responsivo.
 # :wrench: Layouts do projeto
-- <h2> Mobile </h2>
+- <h2> Mobile Viewport Size [390x844] </h2>
+- <h3> Figma </h3>
 ![Pagina incial](https://user-images.githubusercontent.com/42783697/204618000-d2dbffd2-12f5-4f09-ad10-99caf1b9e3f1.png)
+- <h3> Aplicação </h3>
+![Alurabook(mobile)](https://user-images.githubusercontent.com/42783697/205151846-c02d073f-5040-483d-875a-eda9b595a138.gif)
+
+
 - <h2> Tablet </h2>
 ![Página inicial - LOGADA](https://user-images.githubusercontent.com/42783697/204618485-802483a1-45ed-4f20-8961-c834626cc807.png)
 - <h2> Desktop </h2>
