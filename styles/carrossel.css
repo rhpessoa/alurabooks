@@ -1,0 +1,89 @@
+.carrossel__titulo {
+    background-color: var(--branco);
+    text-align: center;
+    padding: 1em 0 .5em 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    padding: 0.5em 0;
+}
+
+.container__card {
+    display: grid;
+    grid-template-columns: 54% 1fr;
+    grid-template-rows: auto 1fr;
+    margin: 1.2em 1.5em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Texto {
+    padding: 1em 0.3em 1em 1em;
+    row-gap: 1em;
+    display: grid;
+    font-weight: 700;
+}
+
+.Card-texto {
+    font-size: 15px;
+    color: var(--laranja);
+}
+
+.Card-Titulo {
+    font-size: 18px;
+    color: var(--azul);
+}
+
+.Card-texto-auxiliar {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.Imagem {
+    padding: 1em 1em 0 0;
+}
+
+.Card-img {
+    width: 100%;
+}
+.Icones{
+    padding-top: 0.5em;
+}
+.Icones  a:first-child{
+    margin-left: 1.5em;
+    margin-right: 1.2em;
+}
+
+.Botao {
+    padding: 0 1em 1em 0;
+}
+.Card-botao{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    background-color: var(--laranja);
+    display: inline-block;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 700;
+}
+.Texto__autor{
+    row-gap: 1em;
+    display: grid;
+    font-weight: 700;
+    padding: 1em 0.6em 1em 1em;
+}

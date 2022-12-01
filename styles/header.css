@@ -30,6 +30,7 @@
     position: absolute;
     background-color: var(--branco);
     width: 60%;
+    z-index: 4;
 }
 
 .container__botao {
@@ -45,7 +46,6 @@
     padding: 1em;
 }
 li.lista-menu__item:hover{
-    border: 1px solid #002F52;
     border-left: 6px solid #002F52;
 }
 .lista-menu__titulo {
