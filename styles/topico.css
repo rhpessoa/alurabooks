@@ -1,6 +1,6 @@
 .topicos {
     background: var(--azul-degrade);
-    padding: 1.5em 0;
+    padding: 1.5em 0 1em 0;
     text-align: center;
 }
 
@@ -8,20 +8,37 @@
     color: var(--branco);
     font-weight: 300;
 }
-.topico__lista{
+
+.topico__lista {
     margin-top: 1.5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.topico__item{
+
+.topico__item {
     margin: 1.5em 0.5em;
 }
-.topico__link{
+
+.topico__link {
     color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topico__link {
+        font-size: 24px;
+    }
+
+    .topico__item {
+        margin: 2.5em 1.5em;
+    }
 }
