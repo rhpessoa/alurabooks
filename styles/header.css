@@ -14,7 +14,9 @@
     align-items: center;
     position: relative;
 }
-
+p.link__texto{
+    display: none;
+}
 .container {
     display: flex;
     align-items: center;
@@ -45,7 +47,8 @@
 .lista-menu__item {
     padding: 1em;
 }
-li.lista-menu__item:hover{
+
+li.lista-menu__item:hover {
     border-left: 6px solid #002F52;
 }
 .lista-menu__titulo {
@@ -56,44 +59,57 @@ li.lista-menu__item:hover{
 .lista-menu__link {
     text-decoration: none;
 }
-.container__titulo{
-        display: none;
-    }
-.opcoes{
+
+.container__titulo {
     display: none;
 }
-@media screen and (min-width: 1024px){
+
+.opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
     .container__titulo,
-    .container__titulo--negrito{
+    .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
     }
-    .container__titulo{
+
+    .container__titulo {
         display: block;
         font-weight: 400;
     }
-    .container__titulo--negrito{
+
+    .container__titulo--negrito {
         font-weight: 700;
     }
+
     .cabeçalho__menu-hamburguer {
-       display: none;
+        display: none;
     }
-    .opcoes{
+
+    .opcoes {
         display: flex;
     }
-    .opcoes__item{
+
+    .opcoes__item {
         padding: 0 2em;
     }
-    .opcoes__link{
+
+    .opcoes__link {
         text-decoration: none;
         color: var(--preto);
     }
-    .container__imagem-transparente{
+
+    .container__imagem-transparente {
         display: none;
     }
+
     .opcoes-botao:checked~.lista-menu {
         display: block;
     }
+
     .lista-menu {
         text-align: center;
         top: 100%;
@@ -103,10 +119,37 @@ li.lista-menu__item:hover{
         width: 16%;
         z-index: 4;
     }
-    .opcoes-botao{
+
+    .opcoes-botao {
         display: none;
     }
-    .opcoes__item{
+
+    .opcoes__item {
         cursor: pointer;
+    }
+    p.link__texto{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    p.link__texto{
+        display: block;
+    }
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .cabeçalho{
+        padding: 0 5em;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    .lista-menu{
+        width: 9%;
+        left: 18%;
     }
 }

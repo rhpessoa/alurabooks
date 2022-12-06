@@ -2,17 +2,20 @@
     background-color: var(--branco);
     padding: 1.5em;
 }
-.contato__titulo{
-font-size: 18px;
-font-weight: 500;
-margin-bottom: 0.5em;
-color: var(--azul);
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    color: var(--azul);
 }
+
 .contato__texto-auxiliar {
- font-size: 16px;
- font-weight: 300;
- margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 1em;
 }
+
 .contato__input {
     width: 90%;
     color: #002F52;
@@ -21,7 +24,8 @@ color: var(--azul);
     padding: 1em;
     background-color: transparent;
 }
-.contato__input::placeholder{
+
+.contato__input::placeholder {
     font-family: var(--fonte-principal);
     text-align: center;
     color: #002F52;
@@ -30,22 +34,44 @@ color: var(--azul);
     background: url("../img/Email.svg") no-repeat;
     background-position: 2em;
 }
+
 @media screen and (min-width: 1024px) {
     .contato {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .contato__titulo{
+
+    .contato__titulo {
         font-size: 24px;
     }
-    .contato__texto{
+
+    .contato__texto {
         margin-right: 1em;
         width: 30%;
     }
-    .contato__input{
+
+    .contato__input {
         width: 30%;
         margin-right: 9em;
         height: fit-content;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 20vw;
+    }
+
+    .contato__input {
+        width: 35%;
+    }
+
+    .contato__texto {
+        width: 40%;
+    }
+
+    .contato__texto-auxiliar {
+        margin-right: 4em;
     }
 }

@@ -54,3 +54,8 @@
         background-position: 8em; 
     }
 }
+@media screen and (min-width: 1728px){
+    .banner__input{
+        width: 32%;
+    }
+}
