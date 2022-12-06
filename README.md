@@ -24,12 +24,29 @@
 
  ![Alurabook(tablet)](https://user-images.githubusercontent.com/42783697/205447517-5812b6a0-afdf-4819-8956-2b84c895bdac.gif)
 
-<h2> Desktop </h2>
+<h2> Desktop Viewport Size [1728x844] </h2>
+
+ - <h3> Figma </h3>
 
 ![Página inicial - LOGADA(desktop)](https://user-images.githubusercontent.com/42783697/204618620-22ab5cba-9350-451a-9f6f-8b9bb1f42784.png)
 
+ - <h3> Aplicação </h3>
+
+
+![Alurabook(desktop)](https://user-images.githubusercontent.com/42783697/206026550-9379537f-1ba0-47ce-b540-8f6a5e208091.gif)
+
 # :construction: Estado atual do projeto
-![images](https://user-images.githubusercontent.com/42783697/204619234-37aa9670-796e-4119-a52d-a3347a2401fb.jpeg)
+ - <h3> HEADER </h3>
+
+![ProjetoFInal_inicio](https://user-images.githubusercontent.com/42783697/206028809-1a4d63d1-f930-4728-a89b-8f7407971b15.gif)
+
+ - <h3> BODY </h3>
+
+![ProjetoFinal_Meio](https://user-images.githubusercontent.com/42783697/206028956-aa7e351b-7db7-4816-93f6-3b3161bad074.gif)
+
+ - <h3> FOOTER </h3>
+
+![ProjetoFInal_FIM](https://user-images.githubusercontent.com/42783697/206029058-cc7e70e9-3133-48d1-9b30-d2aa060492ee.gif)
 
 # 📁 Acesso ao projeto
 __Você pode acessar o código fonte do projeto__ [Aqui](https://github.com/rhpessoa/alurabooks) 
